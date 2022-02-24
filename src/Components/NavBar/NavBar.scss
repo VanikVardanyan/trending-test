@@ -1,0 +1,15 @@
+.NavBar {
+    border-bottom: 1px solid rgb(218, 218, 218);
+
+    &_Btns {
+      height: 40px;
+      width: 70px;
+      border: 1px white;
+      background-color: white;
+      cursor: pointer;
+    }
+    
+    &_Btns:focus {
+        background-color: rgb(238, 236, 236);
+    }
+  }

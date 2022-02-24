@@ -1,0 +1,13 @@
+.archiveTable {
+    width: 100%;
+
+
+    &_tableHeaders, th {
+        text-align: center;
+    }
+
+    &_orderDeleteBtn {
+        cursor: pointer;
+    }
+
+}

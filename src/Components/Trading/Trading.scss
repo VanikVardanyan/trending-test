@@ -1,0 +1,60 @@
+.trading{
+    width: 80%;
+    margin: auto;
+
+    &_timeAndCurrency {
+        width: 60%;
+        margin: auto;
+        color: gray;
+
+        &_currentTimeDiv{
+            margin: auto; 
+            width: 130px
+        }
+
+        &_currency{
+            height: 45px;
+            width: 200px;
+            color: gray;
+            border-color: gray;
+            outline: none;
+        }
+    }
+
+
+    .buyAndSell {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 20px;
+
+        &_buyDiv {
+            cursor: pointer;
+            margin-top: 20px;
+
+            &_H2 {
+                color: green;
+                margin: 0;
+            }
+        }
+    
+        &_sellDiv {
+            cursor: pointer;
+            margin-top: 20px;
+
+            &_H2 {
+                color: red;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.orderModal{
+    height: 200px;
+    width: 250px;
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid gray;
+    background-color: white;
+}

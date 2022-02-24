@@ -1,0 +1,46 @@
+.orderNavBar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    height: 35px;
+
+    &_makeOrderTitle {
+        margin: 0;
+        padding: 7px;
+    }
+
+    &_orderCloseBtn{
+        background-color: white;
+        border: none;
+        height: 20px;
+        cursor: pointer;
+        margin-top: 7px;
+    }
+}
+
+.btnsDiv{
+    display: flex;
+    justify-content: end;
+
+    &_btns{
+        display: flex;
+        margin-top: 20px
+    }
+}
+
+.orderInfoDiv{
+    width: 100%;
+
+    &_orderInfo{
+        display: flex;
+        justify-content: space-around; 
+        text-align: center; 
+        width: 80%;
+        margin: auto;
+    }
+
+    &_valumeDiv{
+        display: flex;
+        justify-content: space-around
+    } 
+}
